@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.Header-Container {
+    background-color: rgb(167, 230, 255);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header-Container > div {
+    display: flex;
+    background-color: rgb(228, 194, 0);
+}
+
+.Header-Logo {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border-style: dashed;
+    border-color: solid black;
+    border-width: 1px;
+    padding-right: 150px;
+}
+
+.Header-Links {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-style: dashed;
+    border-color: solid black;
+    border-width: 1px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.Header-Login {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    border-style: dashed;
+    border-color: solid black;
+    border-width: 1px;
+    padding: 7px;
+    padding-left: 150px;
+}
+
+/* Main */
+
+.Main-Container1 {
+    background-color: blue;
+}
