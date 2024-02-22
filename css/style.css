@@ -54,5 +54,151 @@
 /* Main */
 
 .Main-Container1 {
-    background-color: blue;
+    background-color: rgb(0, 0, 255);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.Main-Item1 {
+    background-color: rgb(241, 125, 241);
+    width: 600px;
+    border-style: dashed;
+    border-color: solid black;
+    border-width: 1px;
+    aspect-ratio: 2/1;
+}
+
+/* Container 2 */
+
+.Main-Container2 {
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main-Item2-1 {
+    display: flex;
+    background-color: aquamarine;
+    width: 200px;
+    height: 300px;
+    flex-grow: 2;
+    margin: 10%;
+    margin-right: 0;
+    border-style: dashed;
+    border-color: solid black;
+    border-width: 1px;
+}
+
+
+.Main-Item2-2 {
+    display: flex;
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 300px;
+    flex-grow: 1;
+    margin: 10%;
+    margin-left: 0;
+    border-style: dashed;
+    border-color: solid black;
+    border-width: 1px;
+}
+
+/* Container 3 */
+
+.Main-Container3 {
+    background-color: rgb(141, 141, 141);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main-Item3-1 {
+    display: flex;
+    background-color: aquamarine;
+    width: 200px;
+    height: 300px;
+    flex-grow: 1;
+    margin: 10%;
+    margin-right: 0;
+    border-style: dashed;
+    border-color: solid black;
+    border-width: 1px;
+}
+
+
+.Main-Item3-2 {
+    display: flex;
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 300px;
+    flex-grow: 2;
+    margin: 10%;
+    margin-left: 0;
+    border-style: dashed;
+    border-color: solid black;
+    border-width: 1px;
+}
+
+/* Container 4 */
+
+.Main-Container4 {
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main-Item4-1 {
+    display: flex;
+    background-color: aquamarine;
+    width: 200px;
+    height: 300px;
+    flex-grow: 2;
+    margin: 10%;
+    margin-right: 0;
+    border-style: dashed;
+    border-color: solid black;
+    border-width: 1px;
+}
+
+
+.Main-Item4-2 {
+    display: flex;
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 300px;
+    flex-grow: 1;
+    margin: 10%;
+    margin-left: 0;
+    border-style: dashed;
+    border-color: solid black;
+    border-width: 1px;
+}
+
+/* Container 5 */
+
+.Main-Container5 {
+    background-color: rgb(141, 141, 141);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main-Item5 {
+    display: flex;
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+    border-style: dashed;
+    border-color: solid black;
+    border-width: 1px;
+}
+
+/* Footer */
