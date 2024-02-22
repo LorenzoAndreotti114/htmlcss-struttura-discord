@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+hr {
+    color: white;
+    width: 1px;
+}
+
 /* Header */
 
 .Header-Container {
@@ -194,7 +199,7 @@
 .Main-Item5 {
     display: flex;
     background-color: aquamarine;
-    width: 500px;
+    width: 750px;
     height: 500px;
     border-style: dashed;
     border-color: solid black;
@@ -202,3 +207,108 @@
 }
 
 /* Footer */
+
+.Footer-Container1 {
+    background-color: rgb(27, 27, 27);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer-Item1 {
+    display: flex;
+    background-color: rgb(255, 124, 124);
+    width: 310px;
+    height: 300px;
+    border-style: dashed;
+    border-color: solid black;
+    border-width: 1px;
+    margin-left: 10%;
+}
+
+.Footer-Item2 {
+    display: flex;
+    background-color: rgb(120, 224, 255);
+    width: 140px;
+    height: 300px;
+    border-style: dashed;
+    border-color: solid rgb(255, 255, 255);
+    border-width: 1px;
+}
+
+.Footer-Item3 {
+    display: flex;
+    background-color: rgb(120, 224, 255);
+    width: 140px;
+    height: 300px;
+    border-style: dashed;
+    border-color: solid rgb(255, 255, 255);
+    border-width: 1px;
+}
+
+.Footer-Item4 {
+    display: flex;
+    background-color: rgb(120, 224, 255);
+    width: 140px;
+    height: 300px;
+    border-style: dashed;
+    border-color: solid rgb(255, 255, 255);
+    border-width: 1px;
+}
+
+
+.Footer-Item5 {
+    display: flex;
+    background-color: rgb(120, 224, 255);
+    width: 140px;
+    height: 300px;
+    border-style: dashed;
+    border-color: solid rgb(255, 255, 255);
+    border-width: 1px;
+    margin-right: 10%;
+}
+
+/* Final footer setup */
+
+.Footer-Container2 {
+    background-color: rgb(27, 27, 27);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
+
+.Footer-Items {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 750px;
+    height: 40px;
+}
+
+.Footer-Logo {
+    background-color: pink;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border-style: dashed;
+    border-color: solid rgb(0, 0, 0);
+    border-width: 1px;
+}
+
+.Footer-Button {
+    background-color: pink;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border-style: dashed;
+    border-color: solid rgb(0, 0, 0);
+    border-width: 1px;
+}
