@@ -45,6 +45,15 @@ hr {
     padding-left: 150px;
 }
 
+.Header-Links ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    padding: 5px;
+}
+
 .Header-Login {
     display: flex;
     align-items: center;
